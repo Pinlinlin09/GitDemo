@@ -31,4 +31,9 @@ public class TestDataBuild {
 	public String deletePlacePayload(String placeId) {
 		return "{\r\n    \"place_id\":\""+placeId+"\"\r\n}";
 	}
+	
+	public void printRandom () {
+		System.out.println("git ex 1");
+	    System.out.println("git ex 2");
+	}
 }

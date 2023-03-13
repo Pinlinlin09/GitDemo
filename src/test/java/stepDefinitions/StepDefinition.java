@@ -67,5 +67,7 @@ public class StepDefinition extends Utils{ //inheritance here that allow no meth
 	    res = given().spec(requestSpecification()).body(data.deletePlacePayload(place_id));
 	    System.out.println("git ex 1");
 	    System.out.println("git ex 2");
+	    System.out.println("git ex 1");
+	    System.out.println("git ex 2");
 	}
 }
