@@ -65,5 +65,7 @@ public class StepDefinition extends Utils{ //inheritance here that allow no meth
 	@Given("DeletePlace Payload")
 	public void delete_place_payload() throws IOException {
 	    res = given().spec(requestSpecification()).body(data.deletePlacePayload(place_id));
+	    System.out.println("git ex 1");
+	    System.out.println("git ex 2");
 	}
 }
